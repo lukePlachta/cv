@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+#wrapper { 
+width: 100%;
+height: auto; 
+margin: 0 auto;
+display: -moz-inline-stack;
+display: inline-block;
+box-sizing: border-box;
+vertical-align: middle;
+}
+/*Nav*/
+.topnav {
+    background-color: blue;
+    overflow: hidden;
+    width: 100%;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+/*End Nav*/
+/* Section Titles */
+h1 {
+    text-align: center;
+    font-size: 350%;
+}
+/* End Section Titles */
+/* Common Style Rules for Contact Table */
+
+.highlight {
+    text-align: center;
+    padding-bottom: 1%;
+}
+table.highlight > tbody > tr {
+  -webkit-transition: background-color .25s ease;
+  transition: background-color .25s ease;
+}
+
+table.highlight > tbody > tr:hover {
+  background-color: rgba(242, 242, 242, 0.5);
+}
+tr td {
+    position: relative;
+    width: 20%;
+    border: 1px solid black;
+    left: 39%;
+    padding: 2%;
+    font-size: 120%;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+/* End Style Rules for Contact Table */
+/* About Me */
+.aboutMe {
+background-color: #EAEAEA;
+padding: 1%;
+}
+.aboutMeParagraphs {
+    text-align: justify;
+    font-size: 130%;
+    width: 70%;
+    left: 15%;
+    position: relative;
+}
+/* End About Me */
+/* Work Info */
+.workImages {
+    position: relative;
+    width: 40%;
+    left: 5%;
+    float: left; 
+    padding-right: 10%;
+}
+ul {
+    position: relative;
+    font-size: 120%;
+    list-style-type: none;
+}
+ul li {
+    padding: 0.85%;
+}
+#currysPCWorld {
+    padding-bottom: 2%;
+}
+#empire {
+    padding-bottom: 3.5%;
+}
+#sparta {
+    padding-bottom: 1%;
+}
+#cineworld {
+    padding-bottom: 1%;
+}
+#waitrose {
+    padding-bottom: 2%;
+}
+#newsquest {
+    padding-bottom: 3%;
+}
+#ibm {
+    padding-bottom: 1%;
+}
+#wgeco {
+    padding-bottom: 1%;
+}
+/* End Work Info */
+/* Education Info */
+.educationImages {
+    position: relative;
+    width: 25%;
+    left: 10%;
+    float: left; 
+    padding-right: 25%;
+}
+#uwe {
+    padding-bottom: 1%;
+}
+#staffs {
+    padding-bottom: 20%;
+}
+#uc {
+    padding-bottom: 2%;
+}
+#nss {
+    padding-bottom: 17%;
+}
+#njs {
+    padding-bottom: 16%;
+}
+/* End Education Info */
+/* Other Qualifications */
+.otherQualifications {
+    background-color: #EAEAEA;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+}
+.otherQualifications p {
+    text-align: center;
+    font-size: 120%;
+}
+.otherQualifications h2 {
+    text-align: center;
+    font-size: 250%;
+}
+/* End Other Qualifications */
+/* Relevant Links */
+.relevantLinks {
+    background-color: #EAEAEA;
+    padding-top: 0.5%;
+    padding-bottom: 3%;
+}
+.relevantLinks p {
+    text-align: center;
+    font-size: 120%;
+}
+/* End Relevant Links*/
+
